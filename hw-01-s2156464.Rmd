@@ -19,11 +19,10 @@ library(cherryblossom)
 
 ## Exercise 1
 
-_Write your text to answer exercise 1 here (Please delete this message before submission!)_
-
-
-
-
+There are 19,961 runners in this data set, with 9 variables each. The net_sec 
+variable gives the total time taken to complete the race, in seconds, once their 
+run-time has been adjusted for the staggered starting times. The event variable 
+refers to the type of race each individual has run, either a 10 mile or 5k.
 
 ## Exercise 2
 
