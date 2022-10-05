@@ -37,11 +37,11 @@ ggplot(data = run17,
 
 ## Exercise 3
 
-_Write your text to answer exercise 3 here (Please delete this message before submission!)_
-
-
-
-
+Both graphs show the distribution of running times, per gender. The visualization
+is faceted into two separate graphs based off of the event variable. This is to 
+break down the running times per race, which is important because of the 
+significant difference in the length (and hence expected time for completion) of 
+both races.
 
 ## Exercise 4
 
