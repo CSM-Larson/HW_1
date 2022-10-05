@@ -26,17 +26,13 @@ refers to the type of race each individual has run, either a 10 mile or 5k.
 
 ## Exercise 2
 
-_The R chunk below generates the given histogram. Edit the code to account for the amendments stated in exercise 2. (Please delete this message before submission!)_
-
-_Edit the code below:_
 ```{r run17_data_viz, warning = FALSE, out.width = "80%"}
 ggplot(data = run17, 
-       mapping = aes(x = net_sec)) +
-  geom_histogram(binwidth = 200)
+       mapping = aes(x = sex, y = net_sec), stat = "identity") +
+  geom_boxplot() +
+  facet_wrap(~event) +
+  labs(x = "Gender", y = "Total Running Time (s)")
 ```
-
-
-
 
 
 ## Exercise 3
